@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 210px;
+    width: 2130px;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}
+
+.uppercased {
+    text-transform: uppercase;
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* resume */
+
+.contacts {
+    border-bottom: 5px solid #d7d7d7;
+    border-top: 5px solid #d7d7d7;
+    padding: 74px 0;
+}
+
+.resume {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo { 
+    position: relative;
+    width: 500px;
+    /*height: 172px;*/
+}
+
+.logo-text {
+    font-size: 63px;
+    font-weight: 700;
+    letter-spacing: 11.25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    position: absolute;
+    width: 366px;
+}
+
+.logo-image {
+    background-image: url('./img/logo_background.png');
+    height: 172px;
+    margin-left: 155px;
+    width: 313px;
+}
+
+.adress {
+    color: #5d6873;
+    height: 135px;
+    font-size: 29px;
+    margin-top: 18.5px;
+    margin-right: 40px;
+    margin-bottom: 18.5px;
+}
+
+.phone-number {
+    background-color: #ffc600;
+    color: #22252c;
+    font-size: 28px;
+    letter-spacing: 0.6px;
+    margin-right: 20px;
+    width: 310px;
+}
+
+.phone, .site {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 20px;
+}
+
+.fax, .email {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 30px 20px;
+}
+
+.site-email {
+    color: #22252c;
+    font-size: 30px;
+    letter-spacing: 1.9px;
+    margin-left: 20px;
+   
+}
+
+.email p {
+    padding-left: 20px;
+}
+
+/* letter */
+
+.description {
+    font-size: 42px;
+    color: rgb(92, 90, 90);
+}
+
+.recipient-contacts {
+    padding-top: 375px;
+    width: 23.4741784038%;
+}
+
+.text {
+    padding-top: 165px;
+    width: 76.5258215962%;
+}
+
+.text h3 {
+    color: black;
+    font-size: 42px;
+}
+
+.text p {
+    padding-top: 90px;
+}
+
+.signature {
+    padding-top: 80px;
+    padding-left: 375px;
+}
+
+/* footer */
+
+.graphic-painter {
+    text-align: center;
+    padding: 570px 0 40px;
+}
+
+
+
